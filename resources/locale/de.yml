@@ -1,0 +1,8 @@
+funkeye-custom-welcome-hero:
+  admin:
+    settings:
+      title: Layout für Willkommensnachricht
+      html_label: HTML-Code einfügen
+      placeholder_title: Überschrift
+      placeholder_message: Nachricht
+      placeholder_button: Schließen-Schaltfläche

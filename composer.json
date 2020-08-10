@@ -1,0 +1,34 @@
+{
+    "name": "funkeye/custom-welcome-hero",
+    "description": "Allows you to set a custom layout for the Welcome-Panel",
+    "keywords": [
+        "flarum"
+    ],
+    "type": "flarum-extension",
+    "license": "MIT",
+    "require": {
+        "flarum/core": ">=0.1.0-beta.12 <0.1.0-beta.14"
+    },
+    "authors": [
+        {
+            "name": "Funkeye",
+            "email": "funk-eye@outlook.com",
+            "role": "Developer"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Funkeye\\CustomWelcomeHero\\": "src/"
+        }
+    },
+    "extra": {
+        "flarum-extension": {
+            "title": "Custom Welcome-Panel",
+            "icon": {
+                "name": "fas fa-columns",
+                "backgroundColor": "#1976d2",
+                "color": "#fff"
+            }
+        }
+    }
+}
